@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=19662efc3469e8fa63d24f29cdc0d246&libraries=services,clusterer"
+    ></script>
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <title>weather</title>
+  </head>
+  <body>
+    <h1>휴게소별 날씨 정보</h1>
+    <h6 id="from">(한국도로공사 데이터 기반)</h6>
+    <p id="date"></p>
+    <div id="map"></div>
+    <div id="box"></div>
+    <div id="btn">
+      <input type="button" onclick="next(value)" value="1"></input>
+      <input type="button" onclick="next(value)" value="2"></input>
+      <input type="button" onclick="next(value)" value="3"></input>
+      <input type="button" onclick="next(value)" value="4"></input>
+      <input type="button" onclick="next(value)" value="5"></input>
+      <input type="button" onclick="next(value)" value="6"></input>
+      <input type="button" onclick="next(value)" value="7"></input>
+      <input type="button" onclick="next(value)" value="8"></input>
+      <input type="button" onclick="next(value)" value="9"></input>
+      <input type="button" onclick="next(value)" value="10"></input>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

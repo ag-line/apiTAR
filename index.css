@@ -1,0 +1,45 @@
+body {
+  margin: 0 auto;
+  width: 400px;
+  background-color: #e3e3e3;
+}
+.addinfo {
+  font-size: 10px;
+  background-color: #d4d4d4;
+}
+#addr {
+  font-size: 12px;
+}
+h1,
+h5,
+h6,
+#info,
+#btn {
+  text-align: center;
+}
+h5,
+h6 {
+  margin: 0;
+}
+#date {
+  text-align: right;
+  padding-right: 20px;
+  font-size: 10px;
+}
+#info {
+  margin: 10px auto;
+  border: 1px solid #494949;
+  border-radius: 15px;
+  width: 300px;
+}
+#map {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+}
+#btn {
+  margin-bottom: 30px;
+}
+#from {
+  text-align: right;
+}
